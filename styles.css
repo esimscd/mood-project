@@ -1,1 +1,30 @@
 
+body {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    background-image: linear-gradient(45deg, #fae791, #f28dbf);
+    background-size: 200%;
+    animation: bg-animation 5s infinite alternate;
+
+}
+
+@keyframes bg-animation {
+    0% {background-position: left;}
+    100% {background-position: right}
+}
+.container {
+    margin-top: 50px;
+}
+
+.color-display {
+    width: 100px;
+    height: 100px;
+    margin: 20px auto;
+    border-radius: 50%;
+}
+
+.playlist {
+    width: 80%;
+    height: 200px;
+    margin-top: 20px;
+}
