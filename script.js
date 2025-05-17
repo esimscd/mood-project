@@ -5,16 +5,19 @@ const title = document.querySelector(".title")
 
 // Predefined colors and playlists
 const moodData = {
-    happy: { color: "#FFD700", playlist: "https://open.spotify.com/embed/playlist/37i9dQZF1DX3rxVfibe1L0" },
-    calm: { color: "#ADD8E6", playlist: "https://open.spotify.com/embed/playlist/37i9dQZF1DX4sWSpwq3LiO" },
-    energetic: { color: "#FF4500", playlist: "https://open.spotify.com/embed/playlist/37i9dQZF1DX1gCrZ1xC96D" },
-    sad: { color: "#708090", playlist: "https://open.spotify.com/embed/playlist/37i9dQZF1DX3YSRoSdA634" }
+    happy: { colour: ["#FAE791", "#F28DBF"], playlist: "https://open.spotify.com/embed/playlist/37i9dQZF1DX3rxVfibe1L0" },
+    calm: { colour: ["#ADD8E6", "#5E9167"], playlist: "https://open.spotify.com/embed/playlist/37i9dQZF1DX4sWSpwq3LiO" },
+    energetic: { colour: ["#FF4500","#51DB42"], playlist: "https://open.spotify.com/embed/playlist/37i9dQZF1EIeEZPgsd7pko" },
+    sad: { colour: ["#708090", "#E7F2E6"], playlist: "https://open.spotify.com/embed/playlist/37i9dQZF1DX3YSRoSdA634" }
 };
 
 // Change background and display playlist
 moodSelector.addEventListener("change", () => {
     const mood = moodSelector.value;
-    document.body.style.background = moodData[mood].color;
-    colorDisplay.style.background = moodData[mood].color;
+    const colours = moodData[mood].colour;
+    //update CSS custom variables to match mood
+    document.body.style.setProperty('--colour1', colours[0]);
+    document.body.style.setProperty('--colour2', colours[1]);
+    //update playlist
     playlist.src = moodData[mood].playlist;
 });

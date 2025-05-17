@@ -11,3 +11,5 @@ This web app allows users to select a mood, dynamically changing the background 
 User selects a mood from the drop down and the background colour and plalist update to match the mood.
 
 You can see what this looks like here: 
+
+![Screenshot of app](<Screenshot 2025-05-17 at 17.51.02.png>)
