@@ -7,8 +7,8 @@ body {
     text-align: center;
     font-family: Arial, sans-serif;
     background-image: linear-gradient(45deg, var(--colour1), var(--colour2));
-    background-size: 200%;
-    animation: bg-animation 5s infinite alternate;
+    background-size: 300%;
+    animation: bg-animation 2s infinite alternate;
     transition: background 0.5s ease-in-out;
 
 }
@@ -26,7 +26,7 @@ body {
 .container {
     margin: 10rem;
     background-color: rgb(237, 236, 213);
-    padding: 3rem;
+    padding: 2rem;
     border-radius: 10px;
 }
 

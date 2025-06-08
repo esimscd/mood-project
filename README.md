@@ -12,4 +12,6 @@ User selects a mood from the drop down and the background colour and plalist upd
 
 You can see what this looks like here: 
 
-![Screenshot of app](<Screenshot 2025-05-17 at 17.51.02.png>)
+
+![Screenshot of app selection](<Screenshot 2025-06-08 at 15.25.29.png>)
+![Screenshot of calm mood](<Screenshot 2025-06-08 at 15.25.18.png>)
