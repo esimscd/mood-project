@@ -7,7 +7,7 @@ const title = document.querySelector(".title")
 const moodData = {
     happy: { colour: ["#FAE791", "#F28DBF"], playlist: "https://open.spotify.com/embed/playlist/37i9dQZF1DX3rxVfibe1L0" },
     calm: { colour: ["#ffffff", "#5E9167"], playlist: "https://open.spotify.com/embed/playlist/37i9dQZF1DX4sWSpwq3LiO" },
-    energetic: { colour: ["#FF4500","#51DB42"], playlist: "https://open.spotify.com/embed/playlist/37i9dQZF1EIeEZPgsd7pko" },
+    energetic: { colour: ["#ffff66","#ff0000"], playlist: "https://open.spotify.com/embed/playlist/37i9dQZF1EIeEZPgsd7pko" },
     sad: { colour: ["#000000", "#E7F2E6"], playlist: "https://open.spotify.com/embed/playlist/37i9dQZF1DX3YSRoSdA634" }
 };
 
